@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Montserrat+Alternates:wght@100&family=Montserrat:wght@200&family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Montserrat+Alternates:wght@100&family=Montserrat:wght@200&family=Odibee+Sans&family=Rubik+Moonrocks&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 80%;
+}
+
+header {
+    background-image: url('./altschoollogo.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 40px;
+    background-color: #000000;
+
+}
+
+.navbar {
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Odibee', Arial, Helvetica, sans-serif;
+   
+}
+.link {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.navbar a {
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.sublink {
+    display: none;
+}
